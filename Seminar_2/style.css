@@ -1,0 +1,27 @@
+p{
+    color:blue;
+    background-color: rgb(194, 194, 121);
+}
+html{
+    background-color: antiquewhite;
+}
+h1{
+    color: red;
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    color: brown;
+}
+ul{
+    color: brown;
+    background-color: aqua;
+}
+ol{
+    color: rgb(69, 68, 76);
+    background-color: rgb(189, 157, 111);
+}
+img{
+    width: 700px;
+}
