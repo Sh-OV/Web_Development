@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Изучаем скрипты</title>
+</head>
+<body>
+
+
+
+    <script>
+        //alert, prompt, confirm
+     //   alert("Привет, Мир!");
+    </script>
+    <script>
+        let a = 158;
+        let b = 2;
+    </script>
+    <script>
+     //   alert("Результат выражения: " + (a + b));
+    </script>
+    <script>
+     //   alert(`Результат выражения: ${a + b}`);
+    </script>
+    
+    <script>
+        function sum(a, b){
+            return a + b;
+        }
+ //       alert("Результат выражения: " + sum(158,2));
+    </script>
+    <script>
+     //   let name = prompt("Введите своё имя: ", "Имя");
+    //    alert(`Привет, ${name}`);
+    </script>
+    <script>
+ //       let nameU = prompt("Введите своё имя: ", "Имя");
+
+        function greeting() {
+            let answer = "Привет, " + nameU;
+            alert(answer);
+        }
+ //       greeting();
+    </script>
+    <script>
+        let age = Number(prompt("Введите свой возраст: "));
+        switch(age){
+            case 18:
+                alert("Вы совершеннолетний, все можно!");
+                break;
+            case 10:
+                alert("Вам надо учить уроки!");
+                break;
+            case 30:
+                alert("Ложитесь спать, завтра на работу");
+                break;
+            default:
+                alert("Мы не знаем что Вам делать");
+        }
+    </script>
+</body>
+</html>
