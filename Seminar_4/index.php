@@ -1,7 +1,7 @@
 <?php
-$name = 'Olga'; // строка
-$city = 'Yekaterinburg, Russia'; // строка
-$profi = 'Energy Engineer'; // строка
+$name = 'Ольга'; // строка
+$city = 'Екатеринбург, Россия'; // строка
+$profi = 'Инженер энергетик'; // строка
 $email = 'email@email.com'; // строка
 $phone = 89037778866; // десятичное число
 $year_current = 2023;
